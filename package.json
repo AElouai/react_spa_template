@@ -2,7 +2,7 @@
   "name": "react_spa_template",
   "version": "0.1.0",
   "private": true,
-  "description": "ReactJS project , building a SPA template with the latest depandancie to get use to them (like a pet project) and creat something that could be useful at the END ",
+  "description": "ReactJS project , building a SPA template with the latest dependencies to get use to them (like a pet project) and creat something that could be useful at the END ",
   "main": "index.js",
   "author": "Ali Elouai <ali.elouai.pro@gmail.com>",
   "license": "MIT",

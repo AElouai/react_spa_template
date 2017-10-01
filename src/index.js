@@ -1,8 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom'
+
+import 'bulma/css/bulma.css'
+
+import RootContainer from './containers/Root.container';
+import configureStore from './store/configureStore';
+
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <Provider store={configureStore()}>
+        <BrowserRouter>
+            <RootContainer />
+        </BrowserRouter>
+    </Provider>,
+    document.getElementById('root'),
+);
 registerServiceWorker();

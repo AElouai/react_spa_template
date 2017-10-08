@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class HomeContainer extends Component {
     render() {
         return (
-            <section className="section">
+            <div className="section">
               <div className="container">
                 <h1 className="title">
                   Hello World
@@ -12,7 +12,7 @@ class HomeContainer extends Component {
                   My first website with <strong>Bulma</strong>!
                 </p>
               </div>
-            </section>
+            </div>
         );
     }
 }

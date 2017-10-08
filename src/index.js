@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import 'bulma/css/bulma.css'
 
 import RootContainer from './containers/Root.container';
-import configureStore from './store/configureStore';
+import configureStore from './redux/store/configureStore';
 
 import registerServiceWorker from './registerServiceWorker';
 
